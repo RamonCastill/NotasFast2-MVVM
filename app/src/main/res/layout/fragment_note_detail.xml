@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        tools:context=".ui.noteDetail.NoteDetailFragment">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_default"
+            android:layout_marginHorizontal="@dimen/common_padding_default"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25sp"
+            tools:text="Nombre de la nota" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_default"
+            android:layout_marginHorizontal="@dimen/common_padding_default"
+            android:textStyle="bold"
+            android:gravity="center"
+            tools:text="1 -1-1"/>
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_default"
+            android:layout_marginHorizontal="@dimen/common_padding_default"
+            android:textStyle="bold"
+            android:gravity="start"
+            tools:text="Descrpcion"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/common_padding_default"
+                android:layout_marginTop="@dimen/common_padding_default"
+                app:cardCornerRadius="@dimen/common_padding_min"
+                style="@style/CardView.Light">
+
+                <ImageView
+                    android:id="@+id/imgNote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/note_image"
+                    android:scaleType="centerCrop"
+                    android:visibility="visible"
+                    app:layout_constraintDimensionRatio="H, 4:3"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FastNotes</string>
+    <string name="description_note_add">Add Note</string>
+    <string name="arg_id">key_id</string>
+    <string name="note_save">Save</string>
+    <string name="note_name">Note Name</string>
+    <string name="note_date">Date</string>
+    <string name="note">Notes</string>
+    <string name="hint_name">Note Name</string>
+    <string name="helper_required">Required</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_description">Note description</string>
+    <string name="menu_save">Save</string>
+    <string name="edit_note_title_add">Add Note</string>
+    <string name="edit_note_massage_success">Edited</string>
+    <string name="edit_store_message_valid">Review the required fields</string>
+    <string name="edit_note_title_edit">Edit Note</string>
+    <string name="dialog_delete_title">Delete Note?</string>
+    <string name="dialog_delete_confirm">Delete</string>
+    <string name="dialog_delete_cancel">Cancel</string>
+    <string name="menu_edit">Edit</string>
+    <string name="note_image">Note Image</string>
+    <string name="note_detail">Note\'s detail</string>
+    <string name="add_note_massage_success">Added</string>
+    <string name="description_img_photo">Note\'s image</string>
+    <string name="dialog_add_image">Add a photo</string>
+    <string name="camera_not_found">Camera not founded</string>
+    <string name="io_exeption">IOException</string>
+</resources>

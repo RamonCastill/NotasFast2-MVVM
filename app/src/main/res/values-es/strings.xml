@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NotasFast</string>
+    <string name="description_note_add">Añade una nota</string>
+    <string name="arg_id">key_id</string>
+    <string name="note_save">Guardar</string>
+    <string name="note_name">Nombre de la nota</string>
+    <string name="note_date">Fecha</string>
+    <string name="note">Notas</string>
+    <string name="hint_name">Nombre de la nota</string>
+    <string name="helper_required">Requerido</string>
+    <string name="hint_date">Fecha</string>
+    <string name="hint_description">Descripción de la nota</string>
+    <string name="menu_save">Guardar</string>
+    <string name="edit_note_title_add">Añadir nota</string>
+    <string name="edit_note_massage_success">Editado</string>
+    <string name="edit_store_message_valid">Revisa los campos requeridos</string>
+    <string name="edit_note_title_edit">Editar nota</string>
+    <string name="dialog_delete_title">Eliminar nota?</string>
+    <string name="dialog_delete_confirm">Eliminar</string>
+    <string name="dialog_delete_cancel">Cancelar</string>
+    <string name="menu_edit">Editar</string>
+    <string name="note_image">Imagen de la nota</string>
+    <string name="note_detail">Detalles de la Nota</string>
+    <string name="add_note_massage_success">Añadido</string>
+    <string name="description_img_photo">Imagen de  la nota</string>
+    <string name="dialog_add_image">Añade una foto</string>
+    <string name="camera_not_found">Cámara no encontrada</string>
+    <string name="io_exeption">IOException</string>
+
+</resources>

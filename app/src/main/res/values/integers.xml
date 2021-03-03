@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="counter_mas_name">30</integer>
+    <integer name="counter_max_description">300</integer>
+    <integer name="lines_url_photo">2</integer>
+</resources>
